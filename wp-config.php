@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'tavolaca_bd' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'tavolaca_user' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '[8lGO1)Jzpx54M' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         '(@30#x%mVIS_M53BgP1c-2eazt3/)Y80]c/lTeNe |JXc_m3W=/uwWd/0N1ynS|@' );
+define( 'SECURE_AUTH_KEY',  'JI%cL<Cs+WtJE/n,rV3`?mV*Gx|1 SCz0dk<0GfK2zeVQ4ovCV+MF7xg2v4.SNNV' );
+define( 'LOGGED_IN_KEY',    'r?3+-J~1]wx*h-O//f71Ju7rFwdH?yM`?fA<h,6g%;,B9Jc4zoV,:RsZRiOf1aMl' );
+define( 'NONCE_KEY',        ']Ai*:owwi<l/3nobX|TKuI#d:Eu.PL3?cFv$O:t5:]wl}5)H(90GN<jZ,k<>9:Eu' );
+define( 'AUTH_SALT',        'rpcGO7E$he~LC<fH4}thNyy*</A6I&dU8m_#;}@kb)-):DeO{GWaU1Ev_1PG{yFX' );
+define( 'SECURE_AUTH_SALT', 'xp/!I7E5v{g%o6k(S?S:@|VZ$oT !|>[ C)_D@mHAizR2-B5|DX2Xg|tMr/1d&cp' );
+define( 'LOGGED_IN_SALT',   ':BG?6B8SaV^Gal`bszT7j<c;nk@-}kLPb.[w4>cJ0?{~S=px5A9AFDg^G{9h(,<]' );
+define( 'NONCE_SALT',       '[)gyG`Wt-FYRZ;::$$La=_zHailPyQW)AAV#21e=]0dVhk^*KBA,|Ab!$d7t*mPR' );
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'tavo_';
 
 /**
  * For developers: WordPress debugging mode.
